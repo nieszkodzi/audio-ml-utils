@@ -74,17 +74,16 @@ ___
 additional code used by train.py and test.py with preparation of models to train and test and saving trained models
 ___
 
-[experiments/visualization.py](experiments/visualization.py)
+[experiments/audio_utils.py](experiments/audio_utils.py)
+
+contains functions to convert m4a to wav (more will be added when needed), extract additional features
+___
+
+[visualization/visualization.py](visualization/visualization.py)
 
 code to visualize audio features such as mfcc, wave forms etc. to choose the best candidates to training and code to
 extract audioset pretrained embeddings to improve models.
 ___
 
-[utils/audio_utils.py](utils/audio_utils.py)
-
-contains functions to convert m4a to wav (more will be added when needed), extract additional features
-___
-
-[utils/python_utils.py](utils/python_utils.py)
-
-by now contains only function to extract csv out of audio folder
+[visualization/simple_video_save.py](visualization/simple_video_save.py)
+code to combine audio with its spectrogram as a simple video
